@@ -6,7 +6,7 @@
 <body>
 <div class="wrapper">
 	<div>
-	<?php  include('header.php'); ?>	
+		<?php  include('header.php'); ?>	
 	</div>
 	
 	<!-- Home Design Inner Pages -->

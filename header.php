@@ -158,161 +158,24 @@
 			            <div class="collapse navbar-collapse" id="navbar-menu">
 			                <ul class="nav navbar-nav navbar-center ulockd-pad9100 pl130-md" data-in="flipInY">
 			                    <li ><!-- class="dropdown" -->
-			                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Home</a>
-			                        <ul class="dropdown-menu">
-										<li class="dropdown">
-				                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Multipage Page</a>
-				                        <ul class="dropdown-menu">
-											<li><a href="index-multipage.html">Multipage One</a></li>
-											<li><a href="index-multipage2.html">Multipage Two</a></li>
-				                        </ul>
-					                    </li>
-										<li class="dropdown">
-					                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Single Page</a>
-					                        <ul class="dropdown-menu">
-												<li><a href="index-singlepage.html">Single page One</a></li>
-												<li><a href="index-singlepage2.html">Single page Two</a></li>
-					                        </ul>
-					                    </li>
-										<li class="dropdown">
-					                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Boxed Layout</a>
-					                        <ul class="dropdown-menu">
-												<li><a href="index-multipage-boxed.html">Multipage Boxed One</a></li>
-												<li><a href="index-multipage2-boxed.html">Multipage Boxed Two</a></li>
-												<li><a href="index-singlepage-boxed.html">Singlepage Boxed One</a></li>
-												<li><a href="index-singlepage2-boxed.html">Singlepage Boxed Two</a></li>
-					                        </ul>
-					                    </li>
-										<li class="dropdown">
-					                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">RTL Layout</a>
-					                        <ul class="dropdown-menu">
-												<li><a href="index-multipage-rtl.html">Multipage RTL One</a></li>
-												<li><a href="index-multipage2-rtl.html">Multipage RTL Two</a></li>
-												<li><a href="index-singlepage-rtl.html">Singlepage RTL One</a></li>
-												<li><a href="index-singlepage2-rtl.html">Singlepage RTL Two</a></li>
-					                        </ul>
-					                    </li>
-										<li class="dropdown">
-					                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dark Layout</a>
-					                        <ul class="dropdown-menu">
-												<li><a href="index-multipage-dark.html">Multipage Dark One</a></li>
-												<li><a href="index-multipage2-dark.html">Multipage Dark Two</a></li>
-												<li><a href="index-singlepage-dark.html">Singlepage Dark One</a></li>
-												<li><a href="index-singlepage2-dark.html">Singlepage Dark Two</a></li>
-					                        </ul>
-					                    </li>
-									<li >
-				                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Unlock BG <span class="badge ulockd-bgthm">New</span></a>
-				                        <ul class="dropdown-menu">
-											<li><a href="ulockd-background-parallax-home.html">BG Parallax</a></li>
-											<li><a href="ulockd-background-particles-home.html">BG Particles</a></li>
-											<li><a href="ulockd-background-particles-home2.html">BG Particles Two</a></li>
-											<li><a href="ulockd-background-video-home.html">BG Video</a></li>
-				                        </ul>
-				                    </li>
-										<li class="dropdown">
-					                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Xtreme Layout <span class="badge ulockd-bgthm">New</span></a>
-					                        <ul class="dropdown-menu">
-												<li><a href="ulockd-slider-split.html">Split</a></li>
-												<li><a href="ulockd-fullpage-slider.html">FullScreen</a></li>
-					                        </ul>
-					                    </li>
-										<li class="dropdown">
-					                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Extra Font <span class="badge ulockd-bgthm">New</span></a>
-					                        <ul class="dropdown-menu">
-												<li><a href="ulockd-elegant-icon-font.html">Elegant Icon</a></li>
-												<li><a href="ulockd-pe-icon-7-stroke.html">Stroke Icon</a></li>
-												<li><a href="ulockd-icon-moon.html">Icon Moon</a></li>
-					                        </ul>
-					                    </li>
-			                        </ul>
+			                        <a href="/shubham/shubham_mandap/" class="dropdown-toggle active" data-toggle="dropdown">Home</a>
+			                        
 			                    </li>
 			                    <li >
-			                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery</a>
-			                        <ul class="dropdown-menu">
-										<li class="dropdown">
-											<a href="blog-grid-one.html" class="dropdown-toggle" data-toggle="dropdown">Header Style <span class="badge ulockd-bgthm">New</span></a>
-	                                        <ul class="dropdown-menu">
-												<li><a href="ulockd-menu-standard-left.html">Navbar Left</a></li>
-												<li><a href="ulockd-menu-standard-center.html">Navbar Center</a></li>
-												<li><a href="ulockd-menu-standard.html">Navbar Left</a></li>
-												<li><a href="ulockd-menu-standard-right.html">Navbar Right</a></li>
-												<li><a href="ulockd-navbar-center-brand.html">Navbar Center Brand</a></li>
-												<li><a href="ulockd-menu-fullscreen.html">FullScreen Menu</a></li>
-												<li><a href="ulockd-menu-left-side.html">Left Side Menu</a></li>
-												<li><a href="ulockd-sticky-header.html">Sticky Header</a></li>
-												<li><a href="ulockd-navbar-transparent.html">Navbar Transparent</a></li>
-												<li><a href="ulockd-navbar-fixed.html">Navbar Fixed</a></li>
-												<li><a href="ulockd-bs-megamenu.html">Beautiful Megamenu</a></li>
-	                                        </ul>
-										</li>
-										<li class="dropdown">
-											<a href="blog-grid-one.html" class="dropdown-toggle" data-toggle="dropdown">Footer Style <span class="badge ulockd-bgthm">New</span></a>
-	                                        <ul class="dropdown-menu">
-												<li><a href="ulockd-footer-style1.html">Footer One</a></li>
-												<li><a href="ulockd-footer-style2.html">Footer Two</a></li>
-												<li><a href="ulockd-footer-style3.html">Footer Three</a></li>
-												<li><a href="ulockd-footer-style4.html">Footer Four</a></li>
-												<li><a href="ulockd-footer-style5.html">Footer Five</a></li>
-	                                        </ul>
-										</li>
-										<li class="dropdown">
-											<a href="blog-grid-one.html" class="dropdown-toggle" data-toggle="dropdown">RSVP Form <span class="badge ulockd-bgthm">New</span></a>
-	                                        <ul class="dropdown-menu">
-												<li><a href="ulockd-booking-form2-rsvp.html">RSVP One</a></li>
-												<li><a href="ulockd-booking-form2-rsvp2.html">RSVP Two</a></li>
-												<li><a href="ulockd-booking-form2-rsvp3.html">RSVP Three</a></li>
-												<li><a href="ulockd-booking-form2-rsvp4.html">RSVP Four</a></li>
-	                                        </ul>
-										</li>
-			                        </ul>
+			                        <a href="gallary.php" class="dropdown-toggle" data-toggle="dropdown">Gallery</a>
+			                        
 			                    </li>
 			                    <li >
-			                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events</a>
-			                        <ul class="dropdown-menu">
-										<li><a href="page-about.html">About</a></li>
-										<li><a href="page-about2.html">About Two</a></li>
-										<li><a href="page-about-her.html">About Her</a></li>
-										<li><a href="page-about-him.html">About Him</a></li>
-			                        </ul>
+			                        <a href="events.php" class="dropdown-toggle" data-toggle="dropdown">Events</a>
+			                        
 			                    </li>
 			                    <li >
 			                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us</a>
-			                        <ul class="dropdown-menu">
-										<li><a href="page-team.html">Team One</a></li>
-										<li><a href="page-team2.html">Team Two</a></li>
-										<li><a href="page-team-details.html">Team Details</a></li>
-										<li><a href="page-team-registration.html">Join Us</a></li>
-			                        </ul>
+			                        
 			                    </li>
                                 <li >
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us</a>
-                                    <ul class="dropdown-menu">
-										<li class="dropdown">
-											<a href="blog-grid-one.html" class="dropdown-toggle" data-toggle="dropdown">Blog Grid </a>
-	                                        <ul class="dropdown-menu">
-												<li><a href="blog-grid-one.html">Blog Grid One </a></li>
-												<li><a href="blog-grid-two.html">Blog Grid Two </a></li>
-												<li><a href="blog-grid-three.html">Blog Grid Three </a></li>
-	                                        </ul>
-										</li>
-										<li class="dropdown">
-											<a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog Single </a>
-	                                        <ul class="dropdown-menu">
-												<li><a href="blog-signle-left-sidebar.html">Sidebar left</a></li>
-												<li><a href="blog-signle-right-sidebar.html">Sidebar Right</a></li>
-												<li><a href="blog-signle-sidebar-less.html">Sidebar Less</a></li>
-	                                        </ul>
-										</li>
-										<li class="dropdown">
-											<a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog Classic</a>
-	                                        <ul class="dropdown-menu">
-												<li><a href="blog-left-sidebar.html">Sidebar left</a></li>
-												<li><a href="blog-right-sidebar.html">Sidebar Right</a></li>
-												<li><a href="blog-sidebar-less.html">Sidebar Less</a></li>
-	                                        </ul>
-										</li>
-                                    </ul>
+                                    <a href="contact_us.php" class="dropdown-toggle" data-toggle="dropdown">Contact Us</a>
+                                    
                                 </li>
 			                    <li style="display: none" class="dropdown">
 			                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>

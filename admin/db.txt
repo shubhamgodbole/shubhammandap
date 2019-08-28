@@ -1,0 +1,53 @@
+---------- USER ------------
+- ID
+- fname
+- lname 
+- email
+- gender
+- password
+- created_at
+- updated_at
+- deleted_at
+
+--------- Gallery_Category -----------
+- ID
+- Category
+- Event
+- created_by
+- updated_by
+- created_at
+- updated_at
+- deleted_at
+
+------- Gallery --------------
+- ID
+- Category
+- Image
+- Title
+- created_by
+- updated_by
+- created_at
+- updated_at
+- deleted_at
+
+-------- Events --------------
+- ID
+- Category
+- Image
+- Title
+- Description
+- created_by
+- updated_by
+- created_at
+- updated_at
+- deleted_at
+
+------- Inquiry ------------
+- ID
+- fname
+- lname
+- email
+- phone
+- subject
+- message
+- status
