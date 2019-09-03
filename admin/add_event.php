@@ -40,8 +40,19 @@
 								</div>
 								<div class="form-group"> 
 									<label for="exampleInputFile">Select Image</label> 
-									<input type="file" name="image"  accept="image/*" id="exampleInputFile" required>  
+									<input type="file" name="image"  accept="image/*" onchange="loadFiles(event)" id="exampleInputFile" required>
+                                    <img class="img-thumbnail" style="display: none;" id="image">
 								</div>
+                                <script>
+                                    var loadFiles = function(event) {
+                                        var output = document.getElementById('image');
+                                        output.src = URL.createObjectURL(event.target.files[0]);
+                                        output.height ="300";
+                                        output.width ="300";
+                                        output.style.display = "block";
+                                        console.log(event.target.files[0]);
+                                    };
+                                </script>
 								<div class="form-group">
 									 <label >Description</label> 
 									   <textarea class="form-control" required placeholder="This is my textarea to be replaced with CKEditor." name="description" id="editor1" rows="10" cols="80"></textarea>
@@ -70,9 +81,11 @@
 	if(isset($_POST['submit']))
 
 	{
+		$time_section=time();
 		$title=$_POST["title"];
 		$category_id=$_POST["category"];
-		$description=$_POST["description"];	
+		$description=$_POST["description"];
+		$_FILES["image"]["name"] = 	$time_section.'_'.$_FILES['image']['name'];
 		$imagename=$_FILES["image"]["name"];
 		$imagedata=$_FILES["image"]["tmp_name"];
 		$imagetype=$_FILES["image"]["type"];

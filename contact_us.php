@@ -42,10 +42,10 @@
 					<div class="contact-info">
 						<div class="contact-details one">
 							<ul class="contact-place one">
-								<li><span class="flaticon-black-back-closed-envelope-shape" title="CHeart@email.com"> <small>CHeart@email.com </small></span></li>
-								<li><span class="flaticon-old-handphone" title="99 55 66 88 526"> <small> +99 55 66 88 526 </small></span></li>
-								<li><span class="flaticon-map-marker" title="Victoria 8007 Australia Envato HQ 121 King Street, Melbourne"> <small>Victoria 8007 Australia Envato  </small></span></li>
-								<li><span class="flaticon-checkbox-pen-outline" title="Written Your Message"> <small>Left Some Word </small></span></li>
+								<li><span class="fa fa-envelope" title="CHeart@email.com"> <small>CHeart@email.com </small></span></li>
+								<li><span class="fa fa-phone" title="99 55 66 88 526"> <small> +99 55 66 88 526 </small></span></li>
+								<li><span class="fa fa-map-marker" title="Victoria 8007 Australia Envato HQ 121 King Street, Melbourne"> <small>Victoria 8007 Australia Envato  </small></span></li>
+								<li><span class="fa fa-checkbox-pen-outline" title="Written Your Message"> <small>Left Some Word </small></span></li>
 							</ul>
 						</div>
 					</div>
@@ -95,15 +95,15 @@
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid ulockd-padz">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="ulockd-google-map">
-		                <div class="" id="map-location" style="height: 312px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
+<!--		<div class="container-fluid ulockd-padz">-->
+<!--			<div class="row">-->
+<!--				<div class="col-md-12">-->
+<!--					<div class="ulockd-google-map">-->
+<!--		                <div class="" id="map-location" style="height: 312px;"></div>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
 	</section>
 
 	<div>

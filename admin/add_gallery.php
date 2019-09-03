@@ -41,7 +41,7 @@
 
 								<div class="form-group"> 
 									<label for="exampleInputFile">Gallery Image</label> 
-									<input type="file" name="image" id="exampleInputFile">  
+									<input type="file" name="image" accept="image/*" id="exampleInputFile" multiple>
 								</div> 
 								<button type="submit" class="btn btn-default">Submit</button> 
 							</form> 

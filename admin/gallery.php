@@ -15,7 +15,7 @@
 							</div>
 						</div>
 						<hr />
-						<table class="table table-hover" style="border: 1px solid #55555540;"> 
+						<table class="table table-hover data_table" style="border: 1px solid #55555540;">
 							<thead> 
 								<tr class="active"> 
 									<th>#</th> 
@@ -47,6 +47,7 @@
 											</tr>";
 											$i++;
 										}
+
 										//echo "<h1>seeeion has been started...</h1>";
 									}
 									else {

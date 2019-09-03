@@ -17,9 +17,9 @@
 
 <link rel="stylesheet" href="css/color-switcher.css" type="text/css">
 <style type="text/css">.fancybox-margin{margin-right:17px;}</style>
-<script id="instafeed-fetcher" src="https://api.instagram.com/v1/users/1691981710/media/recent?access_token=1691981710.b1cd863.1c4d5299499e466392732854131d0641&amp;count=9&amp;callback=instafeedCachea00abba19ee73207.parse"></script>
+<!--<script id="instafeed-fetcher" src="https://api.instagram.com/v1/users/1691981710/media/recent?access_token=1691981710.b1cd863.1c4d5299499e466392732854131d0641&amp;count=9&amp;callback=instafeedCachea00abba19ee73207.parse"></script>-->
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="flaticon.css"> 
+<link rel="stylesheet" type="text/css" href="css/flaticon.css">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>

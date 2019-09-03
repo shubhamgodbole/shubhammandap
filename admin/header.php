@@ -1,6 +1,8 @@
 <?php
 		include("../config.php");
-			
+$timezone = date_default_timezone_set('Asia/Kolkata');
+//echo "The current server timezone is: " . $timezone;
+$dateTime = date('m/d/Y h:i:s ', time());
 ?>
 
 <!-- header-starts -->

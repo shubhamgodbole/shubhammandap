@@ -16,32 +16,32 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="pogoSlider" id="js-main-slider">
-					<div class="pogoSlider-slide" data-transition="zipReveal" data-duration="1500" style="background-image:url(images/home/h4.jpg);">
+					<div class="pogoSlider-slide" data-transition="zipReveal" data-duration="1500" style="background-image:url(images/background/stage.jpg);">
 						<div class="lbox-caption">
 							<div class="lbox-details">
-								<h1 class="fz45">Couple Heart Wedding Planner</h1>
-								<h3 class="fz40 ulockd-mrgn120 ff-raleway">Best Event Organizer.</h3>
-								<button class="btn ulockd-btn-thm2">Get Quote <span class="fa fa-angle-double-right"></span> </button>
-								<button class="btn btn-default ulockd-btn-transparent">More Info <span class="fa fa-angle-double-right"></span></button>
+<!--								<h1 class="fz45">Couple Heart Wedding Planner</h1>-->
+<!--								<h3 class="fz40 ulockd-mrgn120 ff-raleway">Best Event Organizer.</h3>-->
+<!--								<button class="btn ulockd-btn-thm2">Get Quote <span class="fa fa-angle-double-right"></span> </button>-->
+<!--								<button class="btn btn-default ulockd-btn-transparent">More Info <span class="fa fa-angle-double-right"></span></button>-->
 							</div>
 						</div>
 					</div>
-					<div class="pogoSlider-slide" data-transition="blocksReveal" data-duration="1500" style="background-image:url(images/home/h5a.jpg);">
+					<div class="pogoSlider-slide" data-transition="blocksReveal" data-duration="1500" style="background-image:url(https://www.shaadidukaan.com/images/home-slider1.jpg);">
 						<div class="lbox-caption">
 							<div class="lbox-details">
-								<h1 class="fz45">We Are Creative Agency.</h1>
-								<h2 class="ff-raleway">Your Dream Comes Out True.</h2>
-								<button class="btn btn-default ulockd-btn-thm2">More Info </button>
-								<button class="btn btn-default ulockd-btn-transparent">Contact Us </button>
+<!--								<h1 class="fz45">We Are Creative Agency.</h1>-->
+<!--								<h2 class="ff-raleway">Your Dream Comes Out True.</h2>-->
+<!--								<button class="btn btn-default ulockd-btn-thm2">More Info </button>-->
+<!--								<button class="btn btn-default ulockd-btn-transparent">Contact Us </button>-->
 							</div>
 						</div>
 					</div>
-					<div class="pogoSlider-slide" data-transition="shrinkReveal" data-duration="2000" style="background-image:url(images/home/h4a.jpg);">
+					<div class="pogoSlider-slide" data-transition="shrinkReveal" data-duration="2000" style="background-image:url(images/background/stage2.jpg);">
 						<div class="lbox-caption">
 							<div class="lbox-details">
-								<h2 class="fz48">Best Wedding Planner</h2>
-								<h1 class="ff-raleway">We Organize Your Any Event</h1>
-								<button class="btn btn-default ulockd-btn-thm2">Get Quote </button>
+<!--								<h2 class="fz48">Best Wedding Planner</h2>-->
+<!--								<h1 class="ff-raleway">We Organize Your Any Event</h1>-->
+<!--								<button class="btn btn-default ulockd-btn-thm2">Get Quote </button>-->
 							</div>
 						</div>
 					</div>
@@ -409,7 +409,7 @@
 									<div class="lbox-caption">
 										<div class="lbox-details">
 		            						<a class="lightbox-image" data-fancybox-group="preject" href="images/gallery/2.jpg">
-		            							<span class="flaticon-focus"></span>
+		            							<span class="fa fa-plus-circle"></span>
 		            						</a>
 										</div>
 									</div>
@@ -423,7 +423,7 @@
 									<div class="lbox-caption">
 										<div class="lbox-details">
 		            						<a class="lightbox-image" data-fancybox-group="preject" href="images/gallery/3.jpg">
-		            							<span class="flaticon-focus"></span>
+                                                <span class="fa fa-plus-circle"></span>
 		            						</a>
 										</div>
 									</div>
@@ -437,7 +437,7 @@
 									<div class="lbox-caption">
 										<div class="lbox-details">
 		            						<a class="mfp-iframe mfp-youtube" data-fancybox-group="preject" href="https://www.youtube.com/watch?v=teLhLLlhfzc">
-		            							<span class="flaticon-play-button-1"></span>
+                                                <span class="fa fa-plus-circle"></span>
 		            						</a>
 										</div>
 									</div>
@@ -451,7 +451,7 @@
 									<div class="lbox-caption">
 										<div class="lbox-details">
 		            						<a class="lightbox-image" data-fancybox-group="preject" href="images/gallery/5.jpg">
-		            							<span class="flaticon-focus"></span>
+                                                <span class="fa fa-plus-circle"></span>
 		            						</a>
 										</div>
 									</div>
@@ -465,7 +465,7 @@
 									<div class="lbox-caption">
 										<div class="lbox-details">
 		            						<a class="lightbox-image" data-fancybox-group="preject" href="images/gallery/6.jpg">
-		            							<span class="flaticon-focus"></span>
+                                                <span class="fa fa-plus-circle"></span>
 		            						</a>
 										</div>
 									</div>
@@ -592,13 +592,13 @@
 
     <div class="row ulockd-mrgn1240">
         <div class="col-md-12 text-center">
-            <a href="#rsvp_forms" data-toggle="modal" class="btn btn-lg ulockd-btn-thm2 bdrs20" title="CLick On It">RSVP NOW</a>
+            <a href="#rsvp_forms" data-toggle="modal" id="open_form" class="btn btn-lg ulockd-btn-thm2 bdrs20" title="CLick On It">RSVP NOW</a>
             <!-- Product Popup View Start-->
-            <div class="modal fade rsvp_forms" id="rsvp_forms">
+            <div class="modal fade rsvp_forms " id="rsvp_forms" data-toggle="modal" data-backdrop="static" data-keyboard="false">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header text-center">
-                            <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                            <a href="#" data-dismiss="modal"  class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
                             <h3 class="modal-title">RSVP Form. </h3>
                         </div>
                         <div class="modal-body">
@@ -679,6 +679,9 @@
                                             <button type="submit" class="btn btn-lg ulockd-btn-thm2 bdrs20">Send Us</button>
                                         </div>
                                     </form>
+                                    <script>
+                                        document.getElementById('open_form').click();
+                                    </script>
                                 </div>
                             </div>
                         </div>

@@ -10,13 +10,13 @@
 				<div class="tables">
 					<div class="bs-example widget-shadow" data-example-id="hoverable-table"> 
 						<div class="row">
-							<div class="col-md-10"><h4 >Events:</h4></div>
+							<div class="col-md-10"><h4 >Events: </h4></div>
 							<div class="col-md-2">
 								<a href="add_event.php" type="button" class="btn btn-warning"> + Add New</a>
 							</div>
 						</div>
 						<hr />
-						<table class="table table-hover" style="border: 1px solid #55555540;"> 
+						<table class="table table-hover data_table" style="border: 1px solid #55555540;"> 
 							<thead> 
 								<tr class="active"> 
 									<th>#</th> 
@@ -28,7 +28,7 @@
 							</thead> 
 							<tbody> 
 								<?php
-									$qry="select e.id,e.image,e.title,c.Category from events as e, Categories as c where c.id = e.Category_id ";
+									$qry="select e.id,e.image,e.title,c.Category from events as e, Categories as c where c.id = e.Category_id and e.deleted_at IS NULL";
 									$result = $con->query($qry);
 									if($result->num_rows > 0)
 									{									
@@ -43,7 +43,7 @@
 											 		<a href='edit_event.php?id=$d[id]'>
 											 			<i class='fa fa-edit'></i>
 											 		</a>&nbsp;&nbsp;
-													<a href='edit_event.php?id=$d[id]'>
+													<a href='?id=$d[id]' class='delete_event' id=$d[id]>
 														<i class='fa fa-trash'></i>
 													</a>
 											 	</td>  
@@ -66,5 +66,48 @@
 		
 	</div>
 	<div><?php include('footer_files.php') ?></div>
+	<script type="text/javascript">
+		$('.delete_event').on('click', function (e) {
+		  e.preventDefault();
+		  href = $(this).attr('href');
+		  return bootbox.confirm('Are you sure?', function(result) {
+		    if (result) {
+		      window.location = href
+		    }
+		  });
+		});
+	</script>
 </body>
 </html>
+<?php
+	if(isset($_REQUEST['id']))
+	{
+		$did=$_GET['id'];
+		if(isset($did))
+		{
+			$timezone = date_default_timezone_set('Asia/Kolkata');
+			//echo "The current server timezone is: " . $timezone;
+			$dateTime = date('m/d/Y h:i:s ', time());
+			$qry="update events set deleted_at = '$dateTime' where id = $did";
+			$result = $con->query($qry);
+
+			if ($result) {
+    
+				echo "<script type='text/javascript'>
+							bootbox.alert({
+							    message: 'Event deleted successfully !!!',
+							    callback: function () {
+							        window.location ='events.php';
+							    }
+							})
+						</script>";
+
+			}
+			else
+			{
+				echo "<script type='text/javascript'>alert('failed!')</script>";
+			}		
+	
+		}
+	}
+ ?>
